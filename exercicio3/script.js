@@ -16,7 +16,7 @@
 const times = ["Grêmio", "Everton", "Liverpool", "Arsenal", "Hoffenheim"]
 
 for(let [i,v] of times.entries()){
-    alert(`${(i)+1}: ${v}`)
+    console.log(`${(i)+1}: ${v}`)
 }
 
 // let num = 1
